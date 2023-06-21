@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Calculator</title>
+    <link rel="stylesheet" href="Random.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Addition of Random Numbers</h1>
+        <hr>
+        <!-- <input type="text" id="input" placeholder="Sum of Two Random No.s"> -->
+        <div class="input-group">
+            <input type="number" id="input1" placeholder="Enter first number">
+            <h1>+</h1>
+            <input type="number" id="input2" placeholder="Enter second number">
+        </div>
+        
+        <button onclick="calculate()" id="btn1">Submit</button>
+        <br><br>
+        <button onclick="generateRandomNumbers()" id="btn2">Get Random Numbers</button>
+        <br><br>
+        <div id="output"></div>
+    </div>
+    <script src="Random.js"></script>
+</body>
+</html>
